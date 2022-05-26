@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MercaCosmos - Tienda Virtual</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon-mercacosmos.png" type="image/x-icon">
+
+    <!-- Archivos CSS -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!-- Color del tema -->
+    <meta name="theme-color" content="#2091F9">
+
+    <!-- Titulo -->
+    <meta name="title" content="Aprende CSS desde cero">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="hero">
+        <nav class="nav container">
+            
+            <!-- Logo -->
+            <div class="nav__logo">
+                <h2 class="nav__title"><a href="index.html" class="nav__links"><img src="images/logo2-mercacosmos.png" alt="" width="220px"></a></h2>
+            </div>
+
+            <!-- Menú -->
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="categorias.html" class="nav__links">Categorias</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Nuestra Tienda</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Ofertas</a>
+                </li>
+                <li class="nav__items">
+                    <a href="contacto.html" class="nav__links">Contactenos</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <!-- Banner -->
+        <section class="hero__container container">
+            <h1 class="hero__title">¡Bienvenidos al universo de los descuentos!</h1>
+            <p class="hero__paragraph">Encontraras miles de ofertas en las distintas categorias</p>
+            <a href="categorias.html" class="cta">Ver Catálogo</a>
+        </section>
+    </header>
+
+    <main>
+
+        <!-- Complemento del banner -->
+        <section class="container about">
+            <h2 class="subtitle">¿Sabes algo?</h2>
+            <p class="about__paragraph">¡Puedes pagar contra entrega para garantizar la llegada de tú producto!</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/ilustracion1.svg" class="about__icon">
+                    <h3 class="about__title">Interfaz amigable</h3>
+                    <p class="about__paragrah">Recibiras la mejor experiencia de compra en nuestra pagina web</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/ilustracion2.svg" class="about__icon">
+                    <h3 class="about__title">Servicio al cliente</h3>
+                    <p class="about__paragrah">Tenemos un servicio al cliente especializado para brindarte la mejor experiencia</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/ilustracion3.svg" class="about__icon">
+                    <h3 class="about__title">Envío prioritario</h3>
+                    <p class="about__paragrah">Todos los enviós se aseguran bajo una alta prioridad de entrega y estan disponibles para todo el universo</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Banner 2 -->
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Disfruta de la gran experiencia en compras virtuales que viviras una sola vez en tú vida</h2>
+                    <p class="knowledge__paragraph">Recuerda que somos diferentes a todas la tiendas virtuales, ya que ofrecemos planes para comprar productos. Si accedes a cualquiera de los 3 planes que tenemos recibiras distintos beneficios en tús compras, desde envíos en menos de dos horas!</p>
+                    <a href="categorias.html" class="cta">Suscribirme</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/mac.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <!-- Suscripción -->
+        <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para comprar</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Bronce</p>
+                    <h3 class="price__price">Gratis</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Envíos de 3 a 4 días</p>
+                        <p class="price__features">Sin descuentos</p>
+                        <p class="price__features">Sin envíos gratis</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Obtener</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Oro</p>
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Enviós en 2 días</p>
+                        <p class="price__features">Descuentos del 20%</p>
+                        <p class="price__features">Enviós a $5</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Obtener</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Diamante</p>
+                    <h3 class="price__price">$180/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Enviós en 2 horas</p>
+                        <p class="price__features">Descuentos del 70%</p>
+                        <p class="price__features">Envío gratis</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Obtener</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Testimonio Clientes -->
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <!-- Cliente 1 -->
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">Comprador en Bogotá</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
+                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    
+                    <figure class="testimony__picture">
+                        <img src="./images/face.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <!-- Cliente 2 -->
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">Compradora en Medellin</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
+                            voluptatum!</p>
+                    </div>
+
+                    
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <!-- Cliente 3 -->
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Carlos Vargas, <span class="testimony__course">Comprador en Bucaramanga</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    
+                    <figure class="testimony__picture">
+                        <img src="./images/face3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <!-- Cliente 4 -->
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">Comprador en Facatativá</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <!-- Preguntas frecuentes -->
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes al comprar con nosotros</h2>
+            <p class="questions__paragraph">Se que comprar en línea no es sencillo para ti, por eso te queremos dar una pequeña guía en nuestras preguntas más frecuentes.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué metodos de envíos manejan?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué pasa si me llega algo que no és?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Hay garantía?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">Los productos e ideas</h2>
+                <p class="questions__copy" style="color: red; font-weight: bold;">que mejoran nuestra vida</p>
+                <a href="#" class="cta">Comprar ahora</a>
+            </section>
+        </section>
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="nav__title"><a href="index.html" class="nav__links"><img src="images/logo2-mercacosmos.png" alt="" width="220px"></a></h2>
+
+                <ul class="nav__link nav__link--menu">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="categorias.html" class="nav__links">Categorias</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Nuestra Tienda</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Ofertas</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="contacto.html" class="nav__links">Contactenos</a>
+                    </li>
+    
+                    <img src="./images/close.svg" class="nav__close">
+                </ul>
+            </nav>
+
+            <!-- Formúlario suscripción -->
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscríbete y obtén 5% de descuento</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <!-- Redes -->
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <!-- Derechos -->
+            <h3 class="footer__copyright">Derechos reservados &copy; SebastianRZ</h3>
+        </section>
+    </footer>
+
+    <!-- Java -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

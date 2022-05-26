@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MercaCosmos - Tienda Virtual</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon-mercacosmos.png" type="image/x-icon">
+
+    <!-- Archivos CSS -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!-- Color del tema -->
+    <meta name="theme-color" content="#2091F9">
+
+    <!-- Titulo -->
+    <meta name="title" content="Aprende CSS desde cero">
+</head>
+<body>
+    
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title"><a href="index.html" class="nav__links"><img src="images/logo2-mercacosmos.png" alt="" width="220px"></a></h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="categorias.html" class="nav__links">Categorias</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Nuestra Tienda</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Ofertas</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contactenos</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">CONTACTA CON NOSOTROS</h1>
+        </section>
+    </header>
+
+
+    <main>
+        <section class="container about">
+        <form action="" class="form-contact">
+            <h2 class="text-contact">TÚS DATOS</h2>
+            <input type="text" name="Nombre" placeholder="Nombre">
+            <input type="text" name="Correo" placeholder="Correo">
+            <input type="text" name="Telefono" placeholder="Teléfono">
+            <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+            <input type="button" value="ENVIAR" id="boton">
+        </form>
+        </section>
+    </main>
+
+
+    <!-- Pie de pagina -->
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="nav__title"><a href="index.html" class="nav__links"><img src="images/logo2-mercacosmos.png" alt="" width="220px"></a></h2>
+
+                <ul class="nav__link nav__link--menu">
+                    <li class="nav__items">
+                        <a href="index.html" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="categorias.html" class="nav__links">Categorias</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Nuestra Tienda</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Ofertas</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contactenos</a>
+                    </li>
+    
+                    <img src="./images/close.svg" class="nav__close">
+                </ul>
+            </nav>
+
+            <!-- Formúlario suscripción -->
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscríbete y obtén 5% de descuento</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <!-- Redes -->
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <!-- Derechos -->
+            <h3 class="footer__copyright">Derechos reservados &copy; SebastianRZ</h3>
+        </section>
+    </footer>
+
+        <!-- Java -->
+        <script src="./js/questions.js"></script>
+        <script src="./js/menu.js"></script>
+
+</body>
+</html>
